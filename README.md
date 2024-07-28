@@ -14,7 +14,7 @@ This script is designed to exploit blind SQL injection vulnerabilities in web ap
 1.  Clone the repository: `git clone https://github.com/ley0x/despo.git`
 2.  Install the required dependencies: `pip install -r requirements.txt`
 3.  Modify configurable variables (see **Configuration** section)
-4.  Choose the injection point
+4.  Choose the injection point and update the found condition (`is_found(response)`)
 5.  Run the script: `python3 despo.py`
 
 ### Configuration
